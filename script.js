@@ -73,7 +73,7 @@ const checkDraw = ()=>{
 
 // Game Logic
 music.volume = 0.22;
-// music.play()
+music.play()
 let boxes = document.getElementsByClassName("box");
 Array.from(boxes).forEach(element => {
     let boxtext = element.querySelector(".boxtext");
